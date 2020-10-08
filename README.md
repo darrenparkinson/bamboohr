@@ -1,4 +1,7 @@
-# Bamboo HR Go Library [![GoDoc](https://godoc.org/github.com/darrenparkinson/bamboohr?status.svg)][godoc-bamboohr]
+# Bamboo HR Go Library 
+
+[![GoDoc](https://godoc.org/github.com/darrenparkinson/bamboohr?status.svg)](https://godoc.org/github.com/darrenparkinson/bamboohr)
+[![Go Report Card](https://goreportcard.com/badge/github.com/darrenparkinson/bamboohr)](https://goreportcard.com/report/github.com/darrenparkinson/bamboohr)
 
 This is a simple Go library to utilise the [Bamboo HR API](https://documentation.bamboohr.com/docs).
 
