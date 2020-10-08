@@ -45,7 +45,7 @@ func main() {
     // Note: 0 is a special ID meaning the user that created the API Key
     // If no field names are specified after the ID, then all fields will be fetched.
     me, _ := bamboo.GetEmployee(ctx, "0", bamboohr.DisplayName, bamboohr.FirstName, bamboohr.LastName)
-	log.Println(me.ID, me.FirstName, me.LastName, me.DisplayName)
+    log.Println(me.ID, me.FirstName, me.LastName, me.DisplayName)
 }
 ```
 
