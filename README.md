@@ -27,6 +27,7 @@ Your company domain is the part before bamboohr.com, so for `https://acmecorp.ba
 package main
 
 import (
+    "context"
     "log"
     "os"
 
@@ -39,7 +40,7 @@ func main() {
     ctx := context.Background()
     people, _ := bamboo.GetEmployeeDirectory(ctx)
     for _, person := range people {
-        log.Println(person.ID, person.Displayname)
+        log.Println(person.ID, person.DisplayName)
     }
 
     // Note: 0 is a special ID meaning the user that created the API Key
